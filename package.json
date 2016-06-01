@@ -20,7 +20,8 @@
     "typescript": "*",
     "systemjs":"*",
     "angular2":"*",
-    "sqlite-sync":"latest"
+    "sqlite-sync":"latest",
+    "jquery":"*"
   },
   "author": "@jayralencar (//jayralencar.com.br)",
   "license": "MIT",

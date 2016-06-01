@@ -1,3 +1,40 @@
-<h2>{{title}}</h2>
-<input type="text" [(ngModel)]="name"><br>
-<h3>Olá {{name}}</h3>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Users</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<form class="form-inline">
+				<div class="form-group">
+					<label>Name</label>
+					<input type="text" class="form-control"  placeholder="Jane Doe">
+				</div>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="email" class="form-control"  placeholder="jane.doe@example.com">
+				</div>
+				<button type="submit" class="btn btn-default">Save</button>
+			</form>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Name</th>
+						<th>E-mail</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
